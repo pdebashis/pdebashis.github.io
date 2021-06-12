@@ -8,16 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pdebashis.github.io/photos/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>CBS 1.2</title>
-      <link>https://pdebashis.github.io/photos/cbs/</link>
-      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://pdebashis.github.io/photos/cbs/</guid>
-      <description>CBS 1.2</description>
-    </item>
-    
-    <item>
-      <title>eSight 1.2</title>
+      <title>eSight</title>
       <link>https://pdebashis.github.io/photos/esight/</link>
       <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
       
@@ -26,12 +17,21 @@
     </item>
     
     <item>
-      <title>Spain Team</title>
+      <title>OCS</title>
+      <link>https://pdebashis.github.io/photos/ocs/</link>
+      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pdebashis.github.io/photos/ocs/</guid>
+      <description>CBS 1.2</description>
+    </item>
+    
+    <item>
+      <title>Spain CEM</title>
       <link>https://pdebashis.github.io/photos/spain/</link>
       <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pdebashis.github.io/photos/spain/</guid>
-      <description>Spain Team</description>
+      <description>Spain CEM</description>
     </item>
     
     <item>
