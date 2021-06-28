@@ -5,43 +5,6 @@
     <link>https://pdebashis.github.io/photos/</link>
     <description>Recent content in Photos on pdebashis.com</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pdebashis.github.io/photos/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>eSight</title>
-      <link>https://pdebashis.github.io/photos/esight/</link>
-      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://pdebashis.github.io/photos/esight/</guid>
-      <description>eSight Team</description>
-    </item>
-    
-    <item>
-      <title>OCS</title>
-      <link>https://pdebashis.github.io/photos/ocs/</link>
-      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://pdebashis.github.io/photos/ocs/</guid>
-      <description>CBS 1.2</description>
-    </item>
-    
-    <item>
-      <title>Spain CEM</title>
-      <link>https://pdebashis.github.io/photos/spain/</link>
-      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://pdebashis.github.io/photos/spain/</guid>
-      <description>Spain CEM</description>
-    </item>
-    
-    <item>
-      <title>Spark</title>
-      <link>https://pdebashis.github.io/photos/spark/</link>
-      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://pdebashis.github.io/photos/spark/</guid>
-      <description>Spark Team</description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://pdebashis.github.io/photos/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

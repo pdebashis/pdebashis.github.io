@@ -16,17 +16,15 @@
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
-       <meta property="og:title" content="Quick Notes : Hadoop" />
+       <meta property="og:title" content="Monitoring Hadoop" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://pdebashis.github.io/posts/hadoop/" /><meta property="article:published_time" content="2021-06-12T17:34:37+05:30" />
 
 
 
-<meta name="twitter:title" content="Quick Notes : Hadoop"/>
-<meta name="twitter:description" content="Introduction Collection of opensource software utilities that facilitate using a network of many computers to solve problems involving massive amounts of data and computation. Majorly consisting of a filesystem, atop the file systems comes the MapReduce Engine, an Hbase database and other applications.
-Namenode maintains file system namespace. It knows the list of directories and files. It also manages file to block mapping.
-Journal Node is a lightweight solution to store namenode edit logs"/>
+<meta name="twitter:title" content="Monitoring Hadoop"/>
+<meta name="twitter:description" content="A Hadoop ecosystem is a network of computers pooling its resources to solve larger problems. The ecosystem mainly consists of a filesystem and multiple individual components which sits atop the filesystem. Such an ecosystem definitely requires vigorous monitoring to identify any abnormality and prevent major downtimes. Major Hadoop service providers, provide their own tools for monitoring. But for a standalone hadoop, the monitoring aspect is an open field, and you can use your own tools and software."/>
 
 </head>
 <body class="terminal">
@@ -54,70 +52,98 @@ Journal Node is a lightweight solution to store namenode edit logs"/>
 
     <div class="container animated zoomIn fast" >
         
-<h1>Quick Notes : Hadoop</h1>
+<h1>Monitoring Hadoop</h1>
 
 Jun. 12, 2021
 
 
 <br/><br/>
-<h1 id="introduction">Introduction</h1>
-<p>Collection of opensource software utilities that facilitate using a network of many computers to solve problems involving massive amounts of data and computation. Majorly consisting of a filesystem, atop the file systems comes the MapReduce Engine, an Hbase database and other applications.</p>
-<p><strong>Namenode</strong> maintains file system namespace. It knows the list of directories and files. It also manages file to block mapping.</p>
-<p><strong>Journal Node</strong> is a lightweight solution to store namenode edit logs</p>
-<p><strong>YARN</strong> is a layer that came in between mapreduce and hadoop for the better management of resources and jobs. Yarn was introduced to Hadoop ecosystem on 2.x</p>
-<h1 id="startup-scripts">Startup scripts</h1>
-<p><strong>start-all.sh</strong> &amp; <strong>stop-all.sh</strong> : Used to start and stop hadoop daemons all at once. Issuing it on the master machine will start/stop the daemons on all the nodes of a cluster. Deprecated as you have already noticed.</p>
-<p><strong>start-dfs.sh</strong>, <strong>stop-dfs.sh</strong> and <strong>start-yarn.sh</strong>, <strong>stop-yarn.sh</strong> : Same as above but start/stop HDFS and YARN daemons separately on all the nodes from the master machine. It is advisable to use these commands now over start-all.sh &amp; stop-all.sh</p>
-<p><strong>hadoop-daemon.sh start datanode</strong> : Start the data node daemon only on a machine</p>
-<p><strong>Start-mapred.sh</strong> : on the machine you plan to run the Jobtracker on. This will bring up the Map/Reduce cluster with Jobtracker running on the machine you ran the command on and Tasktrackers running on machines listed in the slaves file.</p>
-<p><strong>hadoop-daemon.sh start zkfc</strong> : Used to bring up the HA manager service in namenode and secondary namenode servers.</p>
-<h1 id="major-ports">Major Ports</h1>
-<p>:50070/dfshealth.html#tab-overview</p>
-<p>:16888</p>
-<h1 id="major-configs">Major configs</h1>
-<p>Core-site.xml
-hdfs-site.xml
-mapred-site.xml
-yarn-site.xml
-slaves</p>
-<h1 id="major-metrics">Major Metrics</h1>
-<p>HDFS disk utilisations (hdfs dfs -df -h)
-Live data nodes
-Namenode status (hdfs haadmin -getAllServiceState)
-Resouce Manager status  (yarn rmadmin -getAllServiceState)
-Memory Usage
-Network Usage
-CPU Usage
-Cluster Load
-Namenode Heap utilization
-Yarn Heap utilization
-Yarn memory usage</p>
-<h1 id="fault-tolerance">Fault Tolerance</h1>
-<p>Replication of files are kept on a separate data node. So if one data node fails, all files are still accessible. Hadoop ensures that the replication is stored on different machines.</p>
-<p>Re-replication is done by Namenode whenever it discovers a failed data node</p>
-<p>Rack Awareness is available to ensure at least one copy is available on a separate rack.</p>
-<p>Storage Policies introduced in 2.x</p>
-<p>Erasure coding introduced in 3.x</p>
-<h1 id="namenode-failure">Namenode Failure</h1>
-<p>Backup of HDFS Namespace information is done to QJM setup. Namespace information consists of
-In memory FS Image : Entire file system stored in memory by Namenode (dfs.name.dir/hadoop.tmp.dir)
-Edit Log : Every change in filesystem, used to reconstruct the in-memory FSImage (dfs.name.edits.dir)</p>
-<p>20/08/12 03:29:24 WARN namenode.FSNamesystem: Only one namespace edits storage directory (dfs.namenode.edits.dir) configured. Beware of data loss due to lack of redundant storage directories!</p>
-<p>In a QJM setup (Qourum Journal Manager), a Journal Node is installed on atleast 3 machines on the cluster. Namenode write the edit log to QJM instead of local filesystem.</p>
-<p>Stand by name node is a namenode which continously reads from the journal nodes and is ready to take over in seconds. All data nodes, send the block report heartbeat to both Namenodes</p>
-<p>An active Zookeeper and 2 failover controllers help switch between the namenodes. The failover controller on the active namenode maintains a lock on the zookeper, Standby namenode keeps trying to get the lock.</p>
-<p>Secondary Name node is deployed to perform a check point activity every hour on the edit logs and save a copy of in memory FSImage and truncate the edit logs. (dfs.namenode.checkpoint.dir)</p>
-<p>Secondary namenode is not required when there is a standby name node, because stand by name node also performs this checkpoint activity</p>
-<h1 id="inconsistencies-and-recovery">Inconsistencies and Recovery</h1>
-<p>To understand the scope of the problem</p>
+<p>A Hadoop ecosystem is a network of computers pooling its resources to solve larger problems. The ecosystem mainly consists of a filesystem and multiple individual components which sits atop the filesystem. Such an ecosystem definitely requires vigorous monitoring to identify any abnormality and prevent major downtimes. Major Hadoop service providers, provide their own tools for monitoring. But for a standalone hadoop, the monitoring aspect is an open field, and you can use your own tools and software.</p>
+<p>Here, lets try to setup a basic script based monitoring capability with essential indicators</p>
+<h2 id="uptime-monitoring">Uptime Monitoring</h2>
+<p>Identify each process type running on each cluster. For a more detailed output, read the uptime from ps output.</p>
+<pre><code>PID1=`pgrep -f &quot;proc_datanode&quot;`
+PID2=`pgrep -f &quot;\&lt;namenode\&gt;&quot;`
+PID3=`pgrep -f &quot;\&lt;JobHistoryServer\&gt;&quot;`
+PID4=`pgrep -f &quot;\&lt;DFSZKFailoverController\&gt;&quot;`
+PID5=`pgrep -f &quot;\&lt;NodeManager\&gt;&quot;`
+PID6=`pgrep -f &quot;\&lt;ResourceManager\&gt;&quot;`
+PID7=`pgrep -f &quot;\&lt;JournalNode\&gt;&quot;`
+</code></pre>
+<p>For each PID, the check will look something like this -</p>
+<pre><code>if [ -z $PID ]
+then
+    IS_ALL_OK=1
+    printf &quot;%15s [ %5s ]\n&quot; &quot;Data Node&quot; &quot;ALERT&quot;
+else
+    printf &quot;%15s [ %5s ]\n&quot; &quot;Data Node&quot; &quot;OK&quot;
+fi
+</code></pre>
+<h2 id="cluster-status">Cluster Status</h2>
+<p>Namenode status</p>
+<pre><code>hdfs haadmin -getAllServiceState
+</code></pre>
+<p>Resouce Manager status</p>
+<pre><code>yarn rmadmin -getAllServiceState
+</code></pre>
+<h2 id="resource-utilization">Resource Utilization</h2>
+<p>HDFS disk utilisations</p>
+<pre><code>hdfs dfs -df -h
+</code></pre>
+<p>Live data nodes</p>
+<pre><code>grab_report=`$HADOOP_PREFIX/bin/hdfs dfsadmin -report 2&gt;/dev/null`
+hosts=$(echo -n &quot;$grab_report&quot; | grep Name)
+while IFS= read -r i;do
+  host=$(echo $i | awk -F'[()]' '{print $2}')
+  totaldisk=`echo -n &quot;$grab_report&quot; | grep &quot;$i&quot; -A 7 | grep &quot;Configured Capacity:&quot; | awk -F'[()]' '{print $2}'`
+  useddisk=`echo -n &quot;$grab_report&quot; | grep &quot;$i&quot; -A 7 | grep &quot;^DFS Used:&quot; | awk -F'[()]' '{print $2}'`
+  availdisk=`echo -n &quot;$grab_report&quot; | grep &quot;$i&quot; -A 7 | grep &quot;DFS Remaining:&quot; | awk -F'[()]' '{print $2}'`
+  perc=`echo -n &quot;$grab_report&quot; | grep &quot;$i&quot; -A 7 | grep &quot;DFS Used%:&quot; | awk -F':' '{print $2}'`
+echo &quot;DATANODE,$host,$totaldisk,$useddisk,$availdisk,$percdisk&quot;
+done &lt;&lt;&lt; &quot;$hosts&quot;
+</code></pre>
+<p>Yarn memory usage</p>
+<pre><code>http:/hostname:8088
+</code></pre>
+<p>Network Usage</p>
+<pre><code>tcpdump,nmap,wireshark amongst others
+</code></pre>
+<p>CPU &amp; Memory Usage</p>
+<pre><code>top
+</code></pre>
+<h2 id="hbase-monitoring">Hbase Monitoring</h2>
+<p>Regions Count</p>
+<pre><code>hmaster=$(curl -s http://$hbase_IP:16010/jmx)
+liveserver=$(echo -n &quot;$hmaster&quot; | grep &quot;tag.liveRegionServers&quot; | awk -F':' '{print $2}' | tr '&quot;' ' ' )
+IFS=';' read -r -a array &lt;&lt;&lt; &quot;$liveserver&quot;
+
+for i in ${array[@]}; do
+  rserver=$(echo $i | cut -d ',' -f1)
+  if [ ! -z $rserver ]; then
+  region_count=$(curl -s http://$rserver:16030/jmx | grep regionCount | cut -d':' -f2)
+  echo &quot;REGIONS,$rserver,$region_count&quot; &gt;&gt; $outputfile
+  fi
+done
+</code></pre>
+<p>Regions Skew</p>
+<pre><code>grab_hbase_tables=$($HADOOP_PREFIX/bin/hdfs dfs -du -h  /hbase2/data/default)
+for table in ${tables[@]}; do
+  size=$(echo -n &quot;${grab_hbase_tables}&quot; | grep /${table}$ | awk '{print $1$2}')
+  regions_table=$(curl -s -N &quot;http://${hbase_IP}:16010/table.jsp?name=$table&quot; | readRegions | grep &quot;^&lt;td&gt;&quot; | grep -v href | grep -o -E '[0-9]+')
+  regionscount=$(echo &quot;${regions_table}&quot; | awk '{sum+=$0}END{print sum}')
+  regionsall=$(echo &quot;${regions_table}&quot; | paste -s -d/ -)
+  echo &quot;HBASE,$table,$size,$regionscount,$regionsall&quot; &gt;&gt; $outputfile
+done
+</code></pre>
+<h2 id="inconsistencies">Inconsistencies</h2>
+<p>HDFS block inconsistencies</p>
 <pre><code>hdfs fsck / | egrep -v '^\.+$' | grep -v eplica 
 </code></pre>
-<p>Look through the output for missing or corrupt blocks (ignore under-replicated blocks for now). This command is really verbose especially on a large HDFS filesystem so I normally get down to the meaningful output with</p>
-<p>Use that output to determine where blocks might live. If the file is larger than your block size it might have multiple blocks.</p>
-<p>You can use the reported block numbers to go around to the datanodes and the namenode logs searching for the machine or machines on which the blocks lived. Try looking for filesystem errors on those machines. Missing mount points, datanode not running, file system reformatted/reprovisioned. If you can find a problem in that way and bring the block back online that file will be healthy again.</p>
-<p>Lather rinse and repeat until all files are healthy or you exhaust all alternatives looking for the blocks.</p>
-<pre><code>hdfs fsck / -delete #remove corrupted files only 
-hdfs fsck / #to confirm healthy status </code></pre>
+<p>Hbase block inconsistencies</p>
+<pre><code>hbase hbck -details
+</code></pre>
+<h2 id="conclusion">Conclusion</h2>
+<p>All the above and similar indicators can be run on the cluster in a script to get scheduled reports in mail. You could also build grafana dashboards using most of the indicators.</p>
 
 
 

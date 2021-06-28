@@ -6,61 +6,26 @@
     <description>Recent content on pdebashis.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Jun 2021 17:59:25 +0530</lastBuildDate><atom:link href="https://pdebashis.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Jun 2021 17:34:37 +0530</lastBuildDate><atom:link href="https://pdebashis.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Quick Notes : Kafka</title>
-      <link>https://pdebashis.github.io/posts/kafka/</link>
-      <pubDate>Sat, 12 Jun 2021 17:59:25 +0530</pubDate>
-      
-      <guid>https://pdebashis.github.io/posts/kafka/</guid>
-      <description>Introduction Consumer Subscribe to a topic and pull messages
-Producer Send a message record to a topic
-Topic Has a consumer instance
-Topic Partition Have individual consumer instance
-leader is the node responsible for all reads and writes for the given partition. Each node will be the leader for a randomly selected portion of the partitions.
-replicas is the list of nodes that replicate the log for this partition regardless of whether they are the leader or even if they are currently alive.</description>
-    </item>
-    
-    <item>
-      <title>Quick Notes : Hadoop</title>
+      <title>Monitoring Hadoop</title>
       <link>https://pdebashis.github.io/posts/hadoop/</link>
       <pubDate>Sat, 12 Jun 2021 17:34:37 +0530</pubDate>
       
       <guid>https://pdebashis.github.io/posts/hadoop/</guid>
-      <description>Introduction Collection of opensource software utilities that facilitate using a network of many computers to solve problems involving massive amounts of data and computation. Majorly consisting of a filesystem, atop the file systems comes the MapReduce Engine, an Hbase database and other applications.
-Namenode maintains file system namespace. It knows the list of directories and files. It also manages file to block mapping.
-Journal Node is a lightweight solution to store namenode edit logs</description>
+      <description>A Hadoop ecosystem is a network of computers pooling its resources to solve larger problems. The ecosystem mainly consists of a filesystem and multiple individual components which sits atop the filesystem. Such an ecosystem definitely requires vigorous monitoring to identify any abnormality and prevent major downtimes. Major Hadoop service providers, provide their own tools for monitoring. But for a standalone hadoop, the monitoring aspect is an open field, and you can use your own tools and software.</description>
     </item>
     
     <item>
-      <title>Designed to Fail?</title>
-      <link>https://pdebashis.github.io/posts/failurerecipe/</link>
-      <pubDate>Sat, 12 Jun 2021 01:20:10 +0530</pubDate>
-      
-      <guid>https://pdebashis.github.io/posts/failurerecipe/</guid>
-      <description>There are sometimes incidents which is a disaster and should&amp;rsquo;ve/could&amp;rsquo;ve been avoided. Rather than the details of the failure itself, what is more interesting is the way it is handled. The team working on it, sometimes takes a tiny system fault to a gigantic catastrophe through a cascading series of events. At other times, the team is able to take a catastrophic system failure and make a commendable save.
-I try to avoid the following -</description>
-    </item>
-    
-    <item>
-      <title>My understanding of roles in IT</title>
+      <title>The Type of roles I have come across</title>
       <link>https://pdebashis.github.io/posts/careerpath/</link>
-      <pubDate>Sat, 12 Jun 2021 01:02:26 +0530</pubDate>
+      <pubDate>Fri, 11 Jun 2021 01:02:26 +0530</pubDate>
       
       <guid>https://pdebashis.github.io/posts/careerpath/</guid>
-      <description>These are the typical roles I have come across.
+      <description>These are the different shoes to fill in a project as per my understanding.
 programming These people make sure the code matches the design and give feedback into the design process based on their technical knowledge
-architecture/design These people figure out the overall technical design that matches the business needs, make tradeoffs between technical purity and practicality (e.g. X sucks but everyone in the company uses X so we have to use it too). This person is required to interface with other teams.</description>
-    </item>
-    
-    <item>
-      <title>Why I like working on weekends?</title>
-      <link>https://pdebashis.github.io/posts/weekendpolicy/</link>
-      <pubDate>Sat, 12 Jun 2021 00:52:19 +0530</pubDate>
-      
-      <guid>https://pdebashis.github.io/posts/weekendpolicy/</guid>
-      <description>Weekends are a peaceful way to work with no one standing behind your shoulders. So you can spend appropriate amount of time on a task rather than doing it in a hurry. This leads to better quality of work and I end up enjoying more what of what i do. There is also less emails and chats for distractions.
-I relax a lot on weekdays with tea breaks and chit-chats here and there.</description>
+Implementation These people understand the scope of the product and shape it to meet the client needs. This person is required to interface a lot with other teams and the clients.
+Operations These guys handle the production environment and manage all day to day activities involved in running the software in live.</description>
     </item>
     
     <item>
@@ -69,10 +34,10 @@ I relax a lot on weekdays with tea breaks and chit-chats here and there.</descri
       <pubDate>Sat, 05 Jun 2021 02:47:09 +0530</pubDate>
       
       <guid>https://pdebashis.github.io/about/</guid>
-      <description>My name is Debashis. and I&amp;rsquo;m a code monkey. I specialize in cloud computing and large-scale telecom systems.
+      <description>My name is Debashis. and I&amp;rsquo;m a code monkey. I specialize in cloud computing and big data.
 I am inspired by a character named Milo Pressman from the TV show 24. Check him out here.
 Currently, I&amp;rsquo;m working on scalachess and ruby-algorithmic-trading.
-If you want to reach out to me, you can do it via GitHub, Facebook, Twitch, Telegram or Email.</description>
+If you want to reach out to me, you can do it via GitHub, Facebook, Twitch or Email.</description>
     </item>
     
     <item>
@@ -81,43 +46,9 @@ If you want to reach out to me, you can do it via GitHub, Facebook, Twitch, Tele
       <pubDate>Sat, 05 Jun 2021 01:49:53 +0530</pubDate>
       
       <guid>https://pdebashis.github.io/posts/firstpost/</guid>
-      <description>Testing Hugo Framework to setup a blog</description>
-    </item>
-    
-    <item>
-      <title>eSight</title>
-      <link>https://pdebashis.github.io/photos/esight/</link>
-      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://pdebashis.github.io/photos/esight/</guid>
-      <description>eSight Team</description>
-    </item>
-    
-    <item>
-      <title>OCS</title>
-      <link>https://pdebashis.github.io/photos/ocs/</link>
-      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://pdebashis.github.io/photos/ocs/</guid>
-      <description>CBS 1.2</description>
-    </item>
-    
-    <item>
-      <title>Spain CEM</title>
-      <link>https://pdebashis.github.io/photos/spain/</link>
-      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://pdebashis.github.io/photos/spain/</guid>
-      <description>Spain CEM</description>
-    </item>
-    
-    <item>
-      <title>Spark</title>
-      <link>https://pdebashis.github.io/photos/spark/</link>
-      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://pdebashis.github.io/photos/spark/</guid>
-      <description>Spark Team</description>
+      <description>Testing Hugo Framework to setup a blog
+Why blog? A lot of time is spent on technical work and their is no other outlet to put it out here on the internet.
+Why Hugo? After working on rails for some time, I found the static generated sites (like Hugo) make more sense than having a full backend for a personal portfolio site. I do not have any dynamic content requirements and it was also easier to host.</description>
     </item>
     
   </channel>
