@@ -6,7 +6,18 @@
     <description>Recent content in Posts on pdebashis.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Jun 2021 17:34:37 +0530</lastBuildDate><atom:link href="https://pdebashis.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Aug 2021 01:02:26 +0530</lastBuildDate><atom:link href="https://pdebashis.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Milestone 1 : 5 years in IT service</title>
+      <link>https://pdebashis.github.io/posts/milestone1/</link>
+      <pubDate>Wed, 18 Aug 2021 01:02:26 +0530</pubDate>
+      
+      <guid>https://pdebashis.github.io/posts/milestone1/</guid>
+      <description>This month marks the 5th year for me working in an IT company. The journey so far feels has been enjoyable. It&amp;rsquo;s difficult to put it into words, so here&amp;rsquo;s a bunch of infographics.
+All graphics are prepared are in MS Paint.
+Career Timeline Metrics Chart Business Travel </description>
+    </item>
+    
     <item>
       <title>Monitoring Hadoop</title>
       <link>https://pdebashis.github.io/posts/hadoop/</link>
@@ -22,10 +33,10 @@
       <pubDate>Fri, 11 Jun 2021 01:02:26 +0530</pubDate>
       
       <guid>https://pdebashis.github.io/posts/careerpath/</guid>
-      <description>These are the different shoes to fill in a project as per my understanding.
+      <description>These are the different shoes to fill.
 programming These people make sure the code matches the design and give feedback into the design process based on their technical knowledge
 Implementation These people understand the scope of the product and shape it to meet the client needs. This person is required to interface a lot with other teams and the clients.
-Operations These guys handle the production environment and manage all day to day activities involved in running the software in live.</description>
+Operations These people handle the production environment and manage all day to day activities involved in running the software in live.</description>
     </item>
     
     <item>
