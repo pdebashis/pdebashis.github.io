@@ -15,7 +15,7 @@
       <guid>https://pdebashis.github.io/posts/milestone1/</guid>
       <description>This month marks the 5th year for me working in IT. The journey so far has been fairly enjoyable. It&amp;rsquo;s difficult to put it into words, so here&amp;rsquo;s a bunch of infographics.
 All graphics are prepared in MS Paint.
-Career Timeline Metrics Chart Business Travel </description>
+Career Timeline Metrics Chart Travel </description>
     </item>
     
     <item>
@@ -24,7 +24,9 @@ Career Timeline Metrics Chart Business Travel </description>
       <pubDate>Sat, 12 Jun 2021 17:34:37 +0530</pubDate>
       
       <guid>https://pdebashis.github.io/posts/hadoop/</guid>
-      <description>A Hadoop ecosystem is a network of computers pooling its resources to solve larger problems. The ecosystem mainly consists of a filesystem and multiple individual components which sits atop the filesystem. Such an ecosystem definitely requires vigorous monitoring to identify any abnormality and prevent major downtimes. Major Hadoop service providers, provide their own tools for monitoring. But for a standalone hadoop, the monitoring aspect is an open field, and you can use your own tools and software.</description>
+      <description>A Hadoop ecosystem requires vigorous monitoring to identify any abnormality and prevent major downtimes. Major Hadoop service providers, provide their own tools for monitoring. But for a standalone hadoop, the monitoring aspect is an open field, and you can use your own tools and scripts to setup a monitoring framework.
+Here, lets try to setup a basic script based monitoring capability with essential indicators
+Uptime Monitoring Identify each process type running on each cluster.</description>
     </item>
     
     <item>
@@ -35,8 +37,8 @@ Career Timeline Metrics Chart Business Travel </description>
       <guid>https://pdebashis.github.io/posts/careerpath/</guid>
       <description>These are the different shoes to fill.
 programming These people make sure the code matches the design and give feedback into the design process based on their technical knowledge
-Implementation These people understand the scope of the product and shape it to meet the client needs. This person is required to interface a lot with other teams and the clients.
-Operations These people handle the production environment and manage all day to day activities involved in running the software in live.</description>
+technical Lead These are over-acheiving programmers who now also have a bunch of programmers to guide
+Implementation These people understand the scope of the product and shape it to meet the client needs. This person is required to interface a lot with other teams and the clients</description>
     </item>
     
     <item>
