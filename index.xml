@@ -6,7 +6,26 @@
     <description>Recent content on pdebashis.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pdebashis.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Sep 2021 02:02:26 +0530</lastBuildDate><atom:link href="https://pdebashis.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Resign and then come back </title>
+      <link>https://pdebashis.github.io/posts/whyback/</link>
+      <pubDate>Sun, 26 Sep 2021 02:02:26 +0530</pubDate>
+      
+      <guid>https://pdebashis.github.io/posts/whyback/</guid>
+      <description>We don&amp;rsquo;t really appreciate what we have until its gone. I was doing well and I got excited wanting to earn more money and experience new workplaces so I left. I expected any place i go to, to have the same standards and satisfaction of work.
+Heck no. I joined a company out in an older part of bangalore that was a marketing analysis/telecom campaigning software company. I thought I was bringing some relevant/current knowledge in to the company that I had learned from other smart engineers I was fortunate to work with in the past.</description>
+    </item>
+    
+    <item>
+      <title>What did I learn from Honda and Enzo</title>
+      <link>https://pdebashis.github.io/posts/influencers/</link>
+      <pubDate>Sun, 26 Sep 2021 01:02:26 +0530</pubDate>
+      
+      <guid>https://pdebashis.github.io/posts/influencers/</guid>
+      <description>I meet some influencial people in my career every now and then. And by influencial I mean normal people who are working besides me and do the same same things as me but a little differently. In my first company on the 3rd year of my employment, my supervisor told me that he had assumed a managerial role since a long time but when he sees me working, he misses his days of coding and wanted to go back to a more technical role.</description>
+    </item>
+    
     <item>
       <title>Konark, Puri</title>
       <link>https://pdebashis.github.io/photos/konark1/</link>
@@ -76,7 +95,7 @@ Implementation These people understand the scope of the product and shape it to 
       <guid>https://pdebashis.github.io/about/</guid>
       <description>My name is Debashis. and I&amp;rsquo;m a code monkey. I specialize in cloud computing and big data.
 I am inspired by a character named Milo Pressman from the TV show 24. Check him out here.
-Currently, I&amp;rsquo;m working on scalachess and ruby-algorithmic-trading.
+Currently, I&amp;rsquo;m working on discorb-monkeygames and ruby-algorithmic-trading.
 If you want to reach out to me, you can do it via GitHub, Discord, Twitch or Email.</description>
     </item>
     
