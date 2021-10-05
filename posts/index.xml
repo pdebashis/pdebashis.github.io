@@ -6,7 +6,28 @@
     <description>Recent content in Posts on pdebashis.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Sep 2021 02:02:26 +0530</lastBuildDate><atom:link href="https://pdebashis.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Oct 2021 19:49:53 +0530</lastBuildDate><atom:link href="https://pdebashis.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Book Review : The Big Nine</title>
+      <link>https://pdebashis.github.io/posts/bookreview1/</link>
+      <pubDate>Tue, 05 Oct 2021 19:49:53 +0530</pubDate>
+      
+      <guid>https://pdebashis.github.io/posts/bookreview1/</guid>
+      <description>How the tech titans and their thinking machines could wrap humanity
+Notable Qoutes This is the way the world ends, not with a bang but with a whimper. - T.S.Eliot
+The first ultraintelligent machine is the last invention that man need ever make.
+By not using any human data, Zero&amp;rsquo;s creators removed the constraints of human knowledge. Humans, as it turned out, would have held the system back. (in reference to the Alpha Zero)</description>
+    </item>
+    
+    <item>
+      <title>Competitive Programming memories from University</title>
+      <link>https://pdebashis.github.io/posts/codingcompetetions/</link>
+      <pubDate>Tue, 05 Oct 2021 18:49:53 +0530</pubDate>
+      
+      <guid>https://pdebashis.github.io/posts/codingcompetetions/</guid>
+      <description>Back in the day while starting with programming, there was little exposure to real world applications. All the operating system and compiler design courses seemed highly theoretical and out of reach. But the language classes were a breeze. C, C++ and Java. So what to do with this language knowledge when there are no real world applications of value such as creating an automated bot to interface with telegram API and send a cat picture everyday.</description>
+    </item>
+    
     <item>
       <title>Why Resign and then come back </title>
       <link>https://pdebashis.github.io/posts/whyback/</link>
