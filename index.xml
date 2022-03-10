@@ -6,7 +6,20 @@
     <description>Recent content on pdebashis.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Oct 2021 19:49:53 +0530</lastBuildDate><atom:link href="https://pdebashis.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Jun 2021 02:47:09 +0530</lastBuildDate>
+    
+	<atom:link href="https://pdebashis.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Solving a treacherous bug on a Friday night</title>
+      <link>https://pdebashis.github.io/posts/bug-resolution/</link>
+      <pubDate>Fri, 04 Mar 2022 22:34:37 +0530</pubDate>
+      
+      <guid>https://pdebashis.github.io/posts/bug-resolution/</guid>
+      <description>So, I had been trying to run a simple websocket listener. I had a system in place which will do the authentication and provide me with a wss:// address on which I can add a listener. There are a bunch of libraries to do this. So I copy pasted some code from internet which used the ruby gems faye/websocket and EventMachine and all was good for a while. Till I decided to run this thing on a windows machine.</description>
+    </item>
+    
     <item>
       <title>Book Review : The Big Nine</title>
       <link>https://pdebashis.github.io/posts/bookreview1/</link>
@@ -109,6 +122,17 @@ Implementation These people understand the scope of the product and shape it to 
     </item>
     
     <item>
+      <title>First Post</title>
+      <link>https://pdebashis.github.io/posts/firstpost/</link>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://pdebashis.github.io/posts/firstpost/</guid>
+      <description>Testing Hugo Framework to setup a blog
+Why blog? A lot of time is spent on technical work and their is no other outlet to put it out here on the internet.
+Why Hugo? After working on rails for some time, I found the static generated sites (like Hugo) make more sense than having a full backend for a personal portfolio site. I do not have any dynamic content requirements and it was also easier to host.</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://pdebashis.github.io/about/</link>
       <pubDate>Sat, 05 Jun 2021 02:47:09 +0530</pubDate>
@@ -116,19 +140,9 @@ Implementation These people understand the scope of the product and shape it to 
       <guid>https://pdebashis.github.io/about/</guid>
       <description>My name is Debashis. and I&amp;rsquo;m a code monkey. I specialize in cloud computing and big data.
 I am inspired by a character named Milo Pressman from the TV show 24. Check him out here.
-Currently, I&amp;rsquo;m working on discorb-monkeygames and ruby-algorithmic-trading.
-If you want to reach out to me, you can do it via GitHub, Discord or Twitch.</description>
-    </item>
-    
-    <item>
-      <title>First Post</title>
-      <link>https://pdebashis.github.io/posts/firstpost/</link>
-      <pubDate>Sat, 05 Jun 2021 01:49:53 +0530</pubDate>
-      
-      <guid>https://pdebashis.github.io/posts/firstpost/</guid>
-      <description>Testing Hugo Framework to setup a blog
-Why blog? A lot of time is spent on technical work and their is no other outlet to put it out here on the internet.
-Why Hugo? After working on rails for some time, I found the static generated sites (like Hugo) make more sense than having a full backend for a personal portfolio site. I do not have any dynamic content requirements and it was also easier to host.</description>
+Currently, I&amp;rsquo;m working on ruby-algorithmic-trading.
+If you want to reach out to me, you can do it via GitHub, Discord or Twitch.
+If you would like to support me, Please buy me a Beer</description>
     </item>
     
   </channel>
