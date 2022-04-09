@@ -21,24 +21,12 @@
     </item>
     
     <item>
-      <title>Book Review : The Big Nine</title>
-      <link>https://pdebashis.github.io/posts/bookreview1/</link>
-      <pubDate>Tue, 05 Oct 2021 19:49:53 +0530</pubDate>
+      <title>Victoria&#39;s Museum, Kolkata</title>
+      <link>https://pdebashis.github.io/photos/kolkata/</link>
+      <pubDate>Thu, 25 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://pdebashis.github.io/posts/bookreview1/</guid>
-      <description>How the tech titans and their thinking machines could wrap humanity
-Notable Qoutes This is the way the world ends, not with a bang but with a whimper. - T.S.Eliot
-The first ultraintelligent machine is the last invention that man need ever make.
-By not using any human data, Zero&amp;rsquo;s creators removed the constraints of human knowledge. Humans, as it turned out, would have held the system back. (in reference to the Alpha Zero)</description>
-    </item>
-    
-    <item>
-      <title>Competitive Programming memories from University</title>
-      <link>https://pdebashis.github.io/posts/codingcompetetions/</link>
-      <pubDate>Tue, 05 Oct 2021 18:49:53 +0530</pubDate>
-      
-      <guid>https://pdebashis.github.io/posts/codingcompetetions/</guid>
-      <description>Back in the day while starting with programming, there was little exposure to real world applications. All the operating system and compiler design courses seemed highly theoretical and out of reach. But the language classes were a breeze. C, C++ and Java. So what to do with this language knowledge when there are no real world applications of value such as creating an automated bot to interface with telegram API and send a cat picture everyday.</description>
+      <guid>https://pdebashis.github.io/photos/kolkata/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -52,38 +40,11 @@ Heck no. I joined a company out in an older part of bangalore that was a marketi
     </item>
     
     <item>
-      <title>What did I learn from Honda and Enzo</title>
-      <link>https://pdebashis.github.io/posts/influencers/</link>
-      <pubDate>Sun, 26 Sep 2021 01:02:26 +0530</pubDate>
-      
-      <guid>https://pdebashis.github.io/posts/influencers/</guid>
-      <description>I meet some influencial people in my career every now and then. And by influencial I mean normal people who are working besides me and do the same same things as me but a little differently. In my first company on the 3rd year of my employment, my supervisor told me that he had assumed a managerial role since a long time but when he sees me working, he misses his days of coding and wanted to go back to a more technical role.</description>
-    </item>
-    
-    <item>
       <title>Konark, Puri</title>
-      <link>https://pdebashis.github.io/photos/konark1/</link>
+      <link>https://pdebashis.github.io/photos/konark/</link>
       <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://pdebashis.github.io/photos/konark1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Konark, Puri</title>
-      <link>https://pdebashis.github.io/photos/konark2/</link>
-      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://pdebashis.github.io/photos/konark2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Konark, Puri</title>
-      <link>https://pdebashis.github.io/photos/konark3/</link>
-      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://pdebashis.github.io/photos/konark3/</guid>
+      <guid>https://pdebashis.github.io/photos/konark/</guid>
       <description></description>
     </item>
     
@@ -122,17 +83,6 @@ Implementation These people understand the scope of the product and shape it to 
     </item>
     
     <item>
-      <title>First Post</title>
-      <link>https://pdebashis.github.io/posts/firstpost/</link>
-      <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://pdebashis.github.io/posts/firstpost/</guid>
-      <description>Testing Hugo Framework to setup a blog
-Why blog? A lot of time is spent on technical work and their is no other outlet to put it out here on the internet.
-Why Hugo? After working on rails for some time, I found the static generated sites (like Hugo) make more sense than having a full backend for a personal portfolio site. I do not have any dynamic content requirements and it was also easier to host.</description>
-    </item>
-    
-    <item>
       <title>About</title>
       <link>https://pdebashis.github.io/about/</link>
       <pubDate>Sat, 05 Jun 2021 02:47:09 +0530</pubDate>
@@ -142,7 +92,7 @@ Why Hugo? After working on rails for some time, I found the static generated sit
 I am inspired by a character named Milo Pressman from the TV show 24. Check him out here.
 Currently, I&amp;rsquo;m working on ruby-algorithmic-trading.
 If you want to reach out to me, you can do it via GitHub, Discord or Twitch.
-If you would like to support me, Please buy me a Beer</description>
+If you would like to support me, Please buy me a Coffee</description>
     </item>
     
   </channel>
