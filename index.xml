@@ -52,17 +52,17 @@ By not using any human data, Zero&amp;rsquo;s creators removed the constraints o
       <pubDate>Sun, 26 Sep 2021 02:02:26 +0530</pubDate>
       
       <guid>https://pdebashis.github.io/posts/whyback/</guid>
-      <description>We don&amp;rsquo;t really appreciate what we have until its gone. I was doing well and I got excited wanting to earn more money and experience new workplaces so I left. I expected any place i go to, to have the same standards and satisfaction of work.
-Heck no. I joined a company out in an older part of bangalore that was a marketing analysis/telecom campaigning software company. I thought I was bringing some relevant/current knowledge in to the company that I had learned from other smart engineers I was fortunate to work with in the past.</description>
+      <description>We don&amp;rsquo;t really appreciate what we have until its gone. I was having a good time in my first company and I expected any place i go to, to have the same standards and satisfaction of work.
+Reality had something else to say. I joined a company out in an older part of bangalore that was a marketing analysis/telecom campaigning company. I was put into Customer support, where nobody gave any attention to work culture or work life balance.</description>
     </item>
     
     <item>
-      <title>Milestone 1 : 5 years in IT service</title>
+      <title>Milestone 1 : 5 years in IT</title>
       <link>https://pdebashis.github.io/posts/milestone1/</link>
       <pubDate>Wed, 18 Aug 2021 01:02:26 +0530</pubDate>
       
       <guid>https://pdebashis.github.io/posts/milestone1/</guid>
-      <description>This month marks the 5th year for me working in IT. The journey so far has been fairly enjoyable. It&amp;rsquo;s difficult to put it into words, so here&amp;rsquo;s a bunch of infographics.
+      <description>This month marks the 5th year for me working in IT. The journey so far has been fairly enjoyable. It&amp;rsquo;s difficult to put it into words, so here are a bunch of infographics.
 All graphics are prepared in MS Paint.
 Career Timeline Metrics Chart Travel </description>
     </item>
@@ -84,10 +84,11 @@ Uptime Monitoring Identify each process type running on each cluster.</descripti
       <pubDate>Fri, 11 Jun 2021 01:02:26 +0530</pubDate>
       
       <guid>https://pdebashis.github.io/posts/careerpath/</guid>
-      <description>These are the different shoes to fill.
-programming These people make sure the code matches the design and give feedback into the design process based on their technical knowledge
-technical Lead These are over-acheiving programmers who now also have a bunch of programmers to guide
-Implementation These people understand the scope of the product and shape it to meet the client needs. This person is required to interface a lot with other teams and the clients</description>
+      <description>These are the various hats one can wear, (that I have come across) at a typical software company.
+programming These people make sure the code matches the ideas and designs
+technical Lead These are the programmers who now also have a bunch of programmers to guide
+operations These people handle the production environment and manage all day to day activities involved in running the software in live.
+devops These people make the job of developers easier and systematic by introducing software to automate the various programming, release and deployment related processes</description>
     </item>
     
     <item>
@@ -97,10 +98,8 @@ Implementation These people understand the scope of the product and shape it to 
       
       <guid>https://pdebashis.github.io/about/</guid>
       <description>My name is Debashis. And I&amp;rsquo;m a code-monkey, I make computer Beep Boop Beep Beep Boop.
-I specialize in Big Data Technologies. In this blog, you will find posts and photos pertaining to my experiences and adventures both in and out of work.
-I am inspired by a character named Milo Pressman from the TV show 24. Check him out here.
-Currently, I&amp;rsquo;m working on discord-chess.
-If you want to know more about me, you can do it via GitHub, Discord or Twitch.</description>
+I specialize in Big Data Technologies and I have worked in the telecom and financial domains. In this blog, you will find posts and photos pertaining to my experiences and adventures both in and out of work.
+I am inspired by a character named Milo Pressman from the TV show 24. Check him out here.</description>
     </item>
     
     <item>
