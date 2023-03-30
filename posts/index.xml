@@ -1,30 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on pdebashis.com</title>
+    <title>Posts on pdebashis</title>
     <link>https://pdebashis.github.io/posts/</link>
-    <description>Recent content in Posts on pdebashis.com</description>
+    <description>Recent content in Posts on pdebashis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Nov 2022 01:02:26 +0530</lastBuildDate><atom:link href="https://pdebashis.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Mar 2023 01:02:26 +0530</lastBuildDate><atom:link href="https://pdebashis.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting up my linode Arch Linux</title>
+      <link>https://pdebashis.github.io/posts/setup-linode/</link>
+      <pubDate>Thu, 30 Mar 2023 01:02:26 +0530</pubDate>
+      
+      <guid>https://pdebashis.github.io/posts/setup-linode/</guid>
+      <description>Setting up my Linode Arch Linux Blindly run these steps once you have a brand new Arch Linux system.
+Connect to your Linode via SSH:
+ssh root@IP Set your timezone and synchronize the hardware clock with the system clock:
+ln -sf /usr/share/zoneinfo/Asia/Calcutta /etc/localtimehwclock --systohcdate Create a new user and set sudo permissions:
+useradd -m pdebashispasswd pdebashisexport EDITOR=&amp;#34;vim&amp;#34;visudo--- add the line &amp;#34;pdebashis ALL=(ALL) ALL&amp;#34; Switch to the newly created user</description>
+    </item>
+    
     <item>
       <title>First Over the Board Chess Tournament</title>
       <link>https://pdebashis.github.io/posts/chess-dreamhack/</link>
       <pubDate>Sat, 12 Nov 2022 01:02:26 +0530</pubDate>
       
       <guid>https://pdebashis.github.io/posts/chess-dreamhack/</guid>
-      <description>The DreamHack Rapid and Blitz was organized by NODWIN Gaming, Samay Raina and ChessBase India. It was an open to all tournament with a prize fund of Rs.10 lakh and an entry fee of Rs.1299. I participated in the rapid section which was held on 4th and 5th of Novemeber, 2022 in the Hitex Exhibition Centre in Hyderabad.
-Tournament Details - https://chess-results.com/tnr684721.aspx
-The rapid event had a time control of 15 mins + 10 seconds of increment and 9 rounds (4 rounds on day 1 and 5 rounds on day 2).</description>
-    </item>
-    
-    <item>
-      <title>Insurance Fraud</title>
-      <link>https://pdebashis.github.io/posts/insurance-fraud/</link>
-      <pubDate>Sat, 01 Oct 2022 01:49:53 +0530</pubDate>
-      
-      <guid>https://pdebashis.github.io/posts/insurance-fraud/</guid>
-      <description>My mother was once approached by 2 insurance agents from bajaj Finance at our home. She was asked to pre-maturely close all of my fathers FDs and withdraw the deposit amounts into her own account. I let them go ahead with these processes. Then she was asked for options on how to invest this amount. We were not interested for anything other than a FD and since Bajaj Finance had the services, we agreed to park the withdrawn money with them.</description>
+      <description>This was my first OTB experience. The tournament name was - &amp;ldquo;DreamHack Rapid and Blitz&amp;rdquo;, organized by NODWIN Gaming, Samay Raina and ChessBase India. It was a 9RD Swiss, G/15+10 time control for Rapid and was open to all. The prize fund was around Rs.10 lakh and the entry fee at Rs.1299. It was held on 4th and 5th of Novemeber, 2022 in the Hitex Exhibition Centre in Hyderabad.
+Tournament Details - https://chess-results.</description>
     </item>
     
     <item>
@@ -33,8 +36,8 @@ The rapid event had a time control of 15 mins + 10 seconds of increment and 9 ro
       <pubDate>Sun, 11 Sep 2022 01:02:26 +0530</pubDate>
       
       <guid>https://pdebashis.github.io/posts/careerpath/</guid>
-      <description>My career has been dynamic over the first few years. I have moved from project to project, within a company or across, up in hierarchy or sideways, creating a matrix of career options for myself. Sometimes the change was fast, at times slow and on some instances even in the wrong direction, but I have now built up a portfolio of experiences.
-These are the various hats I have witnessed and a 5yo explanation of what that titles entitles you to do typically.</description>
+      <description>My career has been dynamic over the first few years. I have moved from project to project, within a company and across, up in hierarchy and sideways, creating a matrix of career options for myself. Sometimes the change was fast, at times slow and on some instances even in the wrong direction, but I have now built up a portfolio of experiences.
+These are the various hats I have witnessed and a toddler explanation of what each title entitles you to do typically.</description>
     </item>
     
     <item>
@@ -75,7 +78,7 @@ NMPC was one such (NIST) Monthly Programming Contest. It was introduced in my th
       
       <guid>https://pdebashis.github.io/posts/whyback/</guid>
       <description>We don&amp;rsquo;t really appreciate what we have until its gone. I was having a good time in my first company and I expected any place i go to, to have the same standards and satisfaction of work.
-Reality had something else to say. I joined a company out in an older part of bangalore that was a marketing analysis/telecom campaigning company. I was put into Customer support, where nobody gave any attention to work culture or work life balance.</description>
+Reality had something else to say. I joined a company out in an older part of bangalore that was a marketing analysis/telecom campaigning organisation. I was put into Customer support, where nobody gave any attention to work culture or work life balance.</description>
     </item>
     
     <item>
