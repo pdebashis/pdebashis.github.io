@@ -13,11 +13,27 @@
       <pubDate>Thu, 30 Mar 2023 01:02:26 +0530</pubDate>
       
       <guid>https://pdebashis.github.io/posts/setup-linode/</guid>
-      <description>Setting up my Linode Arch Linux Blindly run these steps once you have a brand new Arch Linux system.
+      <description>Blindly run these steps once you have a brand new Arch Linux Server in linode.
 Connect to your Linode via SSH:
 ssh root@IP Set your timezone and synchronize the hardware clock with the system clock:
 ln -sf /usr/share/zoneinfo/Asia/Calcutta /etc/localtimehwclock --systohcdate Create a new user and set sudo permissions:
 useradd -m pdebashispasswd pdebashisexport EDITOR=&amp;#34;vim&amp;#34;visudo--- add the line &amp;#34;pdebashis ALL=(ALL) ALL&amp;#34; Switch to the newly created user</description>
+    </item>
+    
+    <item>
+      <title>Bike Rap</title>
+      <link>https://pdebashis.github.io/posts/first-bike/</link>
+      <pubDate>Sun, 15 Jan 2023 01:02:26 +0530</pubDate>
+      
+      <guid>https://pdebashis.github.io/posts/first-bike/</guid>
+      <description>Been ridin’ my Yamaha for six years strong
+Got it when I was young, but now I’m grown
+I was excited about my job, wanted to indulge
+Bought a bike when I could’ve walked, that’s the truth I won’t dodge
+It’s reliable daily commute, and weekend fun
+From city streets to winding roads, it’s my number one
+Yamaha FZ, from 2017, my ride or die
+From a young buck to a grown guy</description>
     </item>
     
     <item>
@@ -26,7 +42,7 @@ useradd -m pdebashispasswd pdebashisexport EDITOR=&amp;#34;vim&amp;#34;visudo
       <pubDate>Sat, 12 Nov 2022 01:02:26 +0530</pubDate>
       
       <guid>https://pdebashis.github.io/posts/chess-dreamhack/</guid>
-      <description>This was my first OTB experience. The tournament name was - &amp;ldquo;DreamHack Rapid and Blitz&amp;rdquo;, organized by NODWIN Gaming, Samay Raina and ChessBase India. It was a 9RD Swiss, G/15+10 time control for Rapid and was open to all. The prize fund was around Rs.10 lakh and the entry fee at Rs.1299. It was held on 4th and 5th of Novemeber, 2022 in the Hitex Exhibition Centre in Hyderabad.
+      <description>This was my first OTB experience. The tournament was - &amp;ldquo;DreamHack Rapid and Blitz&amp;rdquo;, organized by NODWIN Gaming, Samay Raina and ChessBase India. It was a 9RD Swiss, G/15+10 time control for Rapid and was open to all. The prize fund was around Rs.10 lakh and the entry fee at Rs.1299. It was held on 4th and 5th of Novemeber, 2022 in the Hitex Exhibition Centre in Hyderabad.
 Tournament Details - https://chess-results.</description>
     </item>
     
