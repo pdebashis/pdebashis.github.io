@@ -6,7 +6,16 @@
     <description>Recent content in Posts on pdebashis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Mar 2023 01:02:26 +0530</lastBuildDate><atom:link href="https://pdebashis.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Apr 2024 22:58:26 +0530</lastBuildDate><atom:link href="https://pdebashis.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Deep Dive into my chess.com games</title>
+      <link>https://pdebashis.github.io/posts/chess-analytics/</link>
+      <pubDate>Tue, 09 Apr 2024 22:58:26 +0530</pubDate>
+      
+      <guid>https://pdebashis.github.io/posts/chess-analytics/</guid>
+      <description>Since I created an account on chess.com in 2020, I have played an unhealthy amount of games on the website and all my games are saved in their database. The trail of data I have created over the years should contain huge secrets of my own gameplay, but the stats I see on my profile are too basic and do not offer useful plans to improve. If I could to decipher more from the data of my games, I could get potential insights into my strengths and weaknesses.</description>
+    </item>
+    
     <item>
       <title>Setting up linode Arch Linux</title>
       <link>https://pdebashis.github.io/posts/setup-linode/</link>
@@ -93,8 +102,8 @@ NMPC was one such (NIST) Monthly Programming Contest. It was introduced in my th
       <pubDate>Sun, 26 Sep 2021 02:02:26 +0530</pubDate>
       
       <guid>https://pdebashis.github.io/posts/whyback/</guid>
-      <description>We don&amp;rsquo;t really appreciate what we have until its gone. I was having a good time in my first company and I expected any place i go to, to have the same standards and satisfaction of work.
-Reality had something else to say. I joined a company out in an older part of bangalore that was a marketing analysis/telecom campaigning organisation. I was put into Customer support, where nobody gave any attention to work culture or work life balance.</description>
+      <description>We don&amp;rsquo;t really appreciate what we have until it&amp;rsquo;s gone. I was having a good time in my first company and I expected any place I go to, to have the same standards and satisfaction of work.
+Reality had something else to say. I joined a company out in an older part of Bangalore that was a marketing analysis/telecom campaigning organisation. I was put into Customer support, where nobody gave any attention to work culture or work life balance.</description>
     </item>
     
     <item>
