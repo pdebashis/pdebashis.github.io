@@ -6,7 +6,18 @@
     <description>Recent content on pdebashis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Apr 2024 22:58:26 +0530</lastBuildDate><atom:link href="https://pdebashis.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Sep 2024 01:02:26 +0530</lastBuildDate><atom:link href="https://pdebashis.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Scala Interview</title>
+      <link>https://pdebashis.github.io/posts/interview-experience/</link>
+      <pubDate>Sun, 29 Sep 2024 01:02:26 +0530</pubDate>
+      
+      <guid>https://pdebashis.github.io/posts/interview-experience/</guid>
+      <description>This was a coding interview in Scala. The problem statement was a simple one :
+Input = List(10, 10, 10, 10, 20, 30, 30, 10, 10, 40, 50, 50, 50, 50)Output = List(10, 20, 30, 10, 40, 50)Kindly eliminate the consecutive duplicates of the elements contained within this list.Approach 1
+My first thought was to implement a temp variable based solution - introduce a &amp;ldquo;memory&amp;rdquo; element which keeps updating when encountering a new number and I ended up writing the below code -</description>
+    </item>
+    
     <item>
       <title>A Deep Dive into my chess.com games</title>
       <link>https://pdebashis.github.io/posts/chess-analytics/</link>
@@ -14,6 +25,15 @@
       
       <guid>https://pdebashis.github.io/posts/chess-analytics/</guid>
       <description>Since I created an account on chess.com in 2020, I have played an unhealthy amount of games on the website and all my games are saved in their database. The trail of data I have created over the years should contain huge secrets of my own gameplay, but the stats I see on my profile are too basic and do not offer useful plans to improve. If I could to decipher more from the data of my games, I could get potential insights into my strengths and weaknesses.</description>
+    </item>
+    
+    <item>
+      <title>Haldi, Bhubaneswar</title>
+      <link>https://pdebashis.github.io/photos/2024_bhubaneswar/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pdebashis.github.io/photos/2024_bhubaneswar/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -39,19 +59,14 @@ useradd -m pdebashispasswd pdebashisexport EDITOR=&amp;#34;vim&amp;#34;visudo
     </item>
     
     <item>
-      <title>Bike Rap</title>
+      <title>Yamaha FZ-S 2017</title>
       <link>https://pdebashis.github.io/posts/first-bike/</link>
       <pubDate>Sun, 15 Jan 2023 01:02:26 +0530</pubDate>
       
       <guid>https://pdebashis.github.io/posts/first-bike/</guid>
-      <description>Been ridin’ my Yamaha for six years strong
-Got it when I was young, but now I’m grown
-I was excited about my job, wanted to indulge
-Bought a bike when I could’ve walked, that’s the truth I won’t dodge
-It’s reliable daily commute, and weekend fun
-From city streets to winding roads, it’s my number one
-Yamaha FZ, from 2017, my ride or die
-From a young buck to a grown guy</description>
+      <description>Purchased new on 16 Jan in 2017, so it has now been more than 6 years owning and riding the bike. I have used it mostly in and around Bangalore. Here is a short ChatGPT generated rhyme about my journey owning the bike, following that are some data points i like to track.
+Been ridin’ my Yamaha for six years strong
+Got it when I was young, but now I’m grown</description>
     </item>
     
     <item>
@@ -65,13 +80,22 @@ Tournament Details - https://chess-results.</description>
     </item>
     
     <item>
+      <title>Insurance Fraud</title>
+      <link>https://pdebashis.github.io/posts/fraudulent-selling/</link>
+      <pubDate>Sat, 01 Oct 2022 01:49:53 +0530</pubDate>
+      
+      <guid>https://pdebashis.github.io/posts/fraudulent-selling/</guid>
+      <description>Me and my mom, were once approached by 2 insurance agents from bajaj Finance at our home. We had some funds lying with them which they were suggesting to move around. We let them go ahead with these processes. Then she was asked for options on how to invest this amount. We were not interested for anything other than a FD and since Bajaj Finance already had some other FDs for us, we agreed to park this money as well with them.</description>
+    </item>
+    
+    <item>
       <title>Flavors of a Software Career</title>
       <link>https://pdebashis.github.io/posts/careerpath/</link>
       <pubDate>Sun, 11 Sep 2022 01:02:26 +0530</pubDate>
       
       <guid>https://pdebashis.github.io/posts/careerpath/</guid>
       <description>My career has been dynamic over the first few years. I have moved from project to project, within a company and across, up in hierarchy and sideways, creating a matrix of career options for myself. Sometimes the change was fast, at times slow and on some instances even in the wrong direction, but I have now built up a portfolio of experiences.
-These are the various hats I have witnessed and a toddler explanation of what each title entitles you to do typically.</description>
+These are the various hats I have worked as/with and a 5 years old-tier explanation of what each title entitles you to do typically.</description>
     </item>
     
     <item>
@@ -92,7 +116,7 @@ These are the various hats I have witnessed and a toddler explanation of what ea
       <description>How the tech titans and their thinking machines could wrap humanity
 Notable Qoutes This is the way the world ends, not with a bang but with a whimper. - T.S.Eliot
 The first ultraintelligent machine is the last invention that man need ever make.
-By not using any human data, Zero&amp;rsquo;s creators removed the constraints of human knowledge. Humans, as it turned out, would have held the system back. (in reference to the Alpha Zero)</description>
+By not using any human data, Zero&amp;rsquo;s creators removed the constraints of human knowledge. Humans, as it turned out, would have held the system back. - in reference to the Alpha Zero</description>
     </item>
     
     <item>
@@ -101,8 +125,8 @@ By not using any human data, Zero&amp;rsquo;s creators removed the constraints o
       <pubDate>Tue, 05 Oct 2021 18:49:53 +0530</pubDate>
       
       <guid>https://pdebashis.github.io/posts/coding-competition/</guid>
-      <description>Back in the day while starting with programming, there was little exposure to real world applications. Instead, all we used to do in college, is to use those programming skills for solving complex imaginary competetive programming questions.
-NMPC was one such (NIST) Monthly Programming Contest. It was introduced in my third year at college and was organized only 3 times in 2 years even though the name indicated otherwise. The Sankalp coding contest on the other hand, was an yearly contest and was organized without fail.</description>
+      <description>Looking back on the days in college where I felt very elated - happy and confident solving programming challenges as a sport.
+NMPC was one of the contests, abbreviated from NIST Monthly Programming Contest. It was introduced in my third year at college and was organized only 3 times in 2 years even though the name indicated otherwise. The Sankalp coding contest on the other hand, was an yearly contest and was organized without fail.</description>
     </item>
     
     <item>
@@ -112,7 +136,7 @@ NMPC was one such (NIST) Monthly Programming Contest. It was introduced in my th
       
       <guid>https://pdebashis.github.io/posts/whyback/</guid>
       <description>We don&amp;rsquo;t really appreciate what we have until it&amp;rsquo;s gone. I was having a good time in my first company and I expected any place I go to, to have the same standards and satisfaction of work.
-Reality had something else to say. I joined a company out in an older part of Bangalore that was a marketing analysis/telecom campaigning organisation. I was put into Customer support, where nobody gave any attention to work culture or work life balance.</description>
+Reality is often dissapointing. I joined a company out in an older part of Bangalore that was a marketing analysis/telecom campaigning organisation. I was put into Customer support, where nobody gave any attention to work culture or work life balance.</description>
     </item>
     
     <item>
@@ -122,8 +146,8 @@ Reality had something else to say. I joined a company out in an older part of Ba
       
       <guid>https://pdebashis.github.io/posts/milestone1/</guid>
       <description>This month marks the 5th year for me working in IT. The journey so far has been fairly enjoyable. It&amp;rsquo;s difficult to put it into words, so here are a bunch of infographics.
-All graphics are prepared in MS Paint.
-Career Timeline Metrics Chart Travel </description>
+Graphics are prepared in MS Paint.
+Career Timeline Travel </description>
     </item>
     
     <item>
@@ -143,11 +167,9 @@ Uptime Monitoring Identify each process type running on each cluster.</descripti
       <pubDate>Sat, 05 Jun 2021 02:47:09 +0530</pubDate>
       
       <guid>https://pdebashis.github.io/about/</guid>
-      <description>My name is Debashis. And I&amp;rsquo;m a code-monkey.
-I specialize in Big Data Technologies and I have worked in the telecom and financial domains. In this blog, you will find posts and photos pertaining to my experiences and adventures both in and out of work.
-I am inspired by a character named Milo Pressman from the TV show 24. Check him out here.
-Currently, I&amp;rsquo;m working on discord-chess.
-If you want to know more about me, you can do it via GitHub, Discord or Twitch.</description>
+      <description>My name is Debashis. Also known by the gamer tag, code-monkey.
+I am in the software industry in India, having contributions to the telecom and financial industries globally. Currently, I am deployed at an offshore technology center of a UK bank, working on Financial Crime Detection. In this blog, you will find posts and photos related to my experiences and adventures both in and out of work.
+I am inspired by a character named Milo Pressman from the TV show 24.</description>
     </item>
     
     <item>
