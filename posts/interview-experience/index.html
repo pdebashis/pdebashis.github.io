@@ -79,11 +79,7 @@ val output = input.map(elem =&gt; {
 <p>This was giving me a list of empty values as the output list.</p>
 <pre><code>    List((), (), (), (), (), (), (), (), (), (), (), (), (), ())
 </code></pre>
-<p>On Retrospection with ChatGPT, I realized how out of touch i was with realizing my logic into scala code. Two very basic problems exist in my logic :</p>
-<ul>
-<li>Lack of return in map: I was trying to return the elements if they satisfied the criteria of not matching the memory element. And I also wanted to update the memory element. But my map had no explicit return value for each element and it never went inside the if statement which updates the memory. So the map was implicitly returning Unit (essentially null in Scala), which is why my new_list only contained Unit instead of any values.</li>
-<li>Missing else clause: I had a logic to follow if elem != memory, but there&rsquo;s no else case for when elem == memory. I didnt even notice during the call that (elem != memory) is checked twice.</li>
-</ul>
+<p>There was a very basic but critical error in my logic - it lacked a return in the map. I was trying to return the elements if they satisfied the criteria of not matching the memory element. And I also wanted to update the memory element. So, my map had no explicit return value for each element, On top of that, it never went inside the if statement which updates the memory. So the map was implicitly returning Empty values (Unit in Scala). I didnt even notice that (elem != memory) is checked twice.</p>
 <p>If I wanted to use this approach using map and a memory variable(var), the correct version would have been -</p>
 <pre><code>val output = input.map(elem =&gt; { 
      if (elem != memory){
@@ -94,9 +90,9 @@ val output = input.map(elem =&gt; {
     }
     }).flatten
 </code></pre>
-<p>During the interview, I tried a different approach instead.</p>
+<p>During the interview, I tried a another approach.</p>
 <p><em>Approach 2</em></p>
-<p>I thought of going with a For loop. I started with a list variable, which was to be updated in each loop. But I couldnt get the list append syntax to work. The interviewer also didnt offer to help. While I was using the :: operator, I was writing it in reverse order. Its the prepend operator, so I should have tried :+ in my approach.</p>
+<p>I switched to a for loop based solution. Starting with a list, as a mutable variable, to be updated with each element which satisfied the criteria. But I couldnt get the list append syntax to work. The interviewer also didnt offer to help. I was confusing :+ with ::.</p>
 <p>I ended up printing out the result list directly.</p>
 <pre><code>def keepElement(curr: Int, prev:Int) :String = {
   if(curr != prev)
@@ -130,16 +126,17 @@ for ( i &lt;- 0 to input.size - 1) {
 
 ]
 </code></pre>
-<p>The solution was also not pure scala. The method I defined could have been done inline. But thats just how the mind works when an interview is going badly. Anyway, the correct syntax would have been -</p>
-<p>var output = List<a href="">Int</a>
-output = output :+ input(0)</p>
-<pre><code>for( i &lt;- 1 until input.length){
+<p>The solution was also not pure scala. The method I defined could have been done inline. The correct syntax would have been -</p>
+<pre><code>var output = List[Int]()
+output = output :+ input(0)
+
+for( i &lt;- 1 until input.length){
   if(input(i) != input(i-1)) {
     output = output :+ input(i)
   }
 }
 </code></pre>
-<p>It took me 30 mins to compile and run my 2 attempts and the interviewer was done. When I asked for the solution, he mentioned foldLeft and head method of List. I looked it up after the call. The correct way to do it was only a few lines as below -</p>
+<p>It took me 30 mins to compile and run my 2 attempts before the interview was concluded. I looked up the solution after the call. The correct way to do it was only a few lines as below -</p>
 <pre><code>val output = input.foldRight(List[Int]()) { (cur, res) =&gt;
        if (res.isEmpty || res.head != cur) cur, :: res
        else res
