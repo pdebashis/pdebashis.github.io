@@ -6,7 +6,19 @@
     <description>Recent content in Posts on pdebashis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Sep 2024 01:02:26 +0530</lastBuildDate><atom:link href="https://pdebashis.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Nov 2024 17:57:26 +0530</lastBuildDate><atom:link href="https://pdebashis.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Yamaha FZ-S 2016</title>
+      <link>https://pdebashis.github.io/posts/first-bike/</link>
+      <pubDate>Fri, 29 Nov 2024 17:57:26 +0530</pubDate>
+      
+      <guid>https://pdebashis.github.io/posts/first-bike/</guid>
+      <description>I purchased this machine on 16 Jan in 2017 and sold it on 11 Nov 2024 after owning and riding the bike for almost 8 years. Here is the odometer timeline and following that is a short chatGPT generated ode to the bike.
+Kms driven While selling the bike, it had 30363 km on the odometer.
+Poem Been ridin’ my Yamaha for six years strong
+Got it when I was young, but now I’m grown</description>
+    </item>
+    
     <item>
       <title>A Scala Interview</title>
       <link>https://pdebashis.github.io/posts/interview-experience/</link>
@@ -41,17 +53,6 @@ useradd -m pdebashispasswd pdebashisexport EDITOR=&amp;#34;vim&amp;#34;visudo
     </item>
     
     <item>
-      <title>Yamaha FZ-S 2017</title>
-      <link>https://pdebashis.github.io/posts/first-bike/</link>
-      <pubDate>Sun, 15 Jan 2023 01:02:26 +0530</pubDate>
-      
-      <guid>https://pdebashis.github.io/posts/first-bike/</guid>
-      <description>Purchased new on 16 Jan in 2017, so it has now been more than 6 years owning and riding the bike. I have used it mostly in and around Bangalore. Here is a short ChatGPT generated rhyme about my journey owning the bike, following that are some data points i like to track.
-Been ridin’ my Yamaha for six years strong
-Got it when I was young, but now I’m grown</description>
-    </item>
-    
-    <item>
       <title>First Over the Board Chess Tournament</title>
       <link>https://pdebashis.github.io/posts/chess-dreamhack/</link>
       <pubDate>Sat, 12 Nov 2022 01:02:26 +0530</pubDate>
@@ -60,15 +61,6 @@ Got it when I was young, but now I’m grown</description>
       <description>This was my first OTB experience. It was a 9 Round Swiss, G/15+10 time control and was open to all. The prize fund was around Rs.10 lakh and the entry fee at Rs.1299. It was held on 4th and 5th of Novemeber, 2022 in the Hitex Exhibition Centre in Hyderabad.
 Tournament Results - https://chess-results.com/tnr684721.aspx
 The rapid event had 4 rounds on day 1 and 5 rounds on day 2. There were 397 participants out of which 37 were titled players and 206 FIDE rated players.</description>
-    </item>
-    
-    <item>
-      <title>Insurance Mis-selling</title>
-      <link>https://pdebashis.github.io/posts/fraudulent-selling/</link>
-      <pubDate>Sat, 01 Oct 2022 01:49:53 +0530</pubDate>
-      
-      <guid>https://pdebashis.github.io/posts/fraudulent-selling/</guid>
-      <description>Me and my mom, were once approached by 2 insurance agents from bajaj Finance at our home. We had some funds lying with them which they were suggesting to move around. We let them go ahead with these processes. Then she was asked for options on how to invest this amount. We were not interested for anything other than a FD and since Bajaj Finance already had some other FDs for us, we agreed to park this money as well with them.</description>
     </item>
     
     <item>
