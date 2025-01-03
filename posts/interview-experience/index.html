@@ -136,13 +136,13 @@ for( i &lt;- 1 until input.length){
   }
 }
 </code></pre>
-<p>It took me 30 mins to compile and run my 2 attempts before the interview was concluded. I looked up the solution after the call. The correct way to do it was only a few lines as below -</p>
+<p>At this point, I felt there is no way to do this without using a dirty &ldquo;var&rdquo;. It had already taken me 30 mins to compile and run my 2 attempts, so the interviewer let me go. I looked up the solution after the call. The correct way to do it was only a few lines as below -</p>
 <pre><code>val output = input.foldRight(List[Int]()) { (cur, res) =&gt;
        if (res.isEmpty || res.head != cur) cur, :: res
        else res
 }
 </code></pre>
-<p>Thanks to this interview, I found something to start learning. I tried a few more problems to develop a scala minded approach, as opposed to the script based or C based approach which I was used to.</p>
+<p>Exercises like this make me want to learn and question the idea that the language is just a tool. The approach needs to keep the language also in mind. And a scala minded approach, is very different from a script based or C based approach which I was accustomed to. There are just too many ways to do something, so its very easy to start thinking along some lines which will lead to a suboptimal solution. As someone still in the early stages of learning Scala, mastering the language and its ways seems like a career long commitment.</p>
 
 
 
