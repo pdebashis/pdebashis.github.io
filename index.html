@@ -61,9 +61,18 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="/assets/index-DqLHS4Dl.js"></script>
+  <script type="module" crossorigin src="/assets/index-C-0h1uMk.js"></script>
 </head>
   <body>
     <div id="root"></div>
+    <script>
+      // Handle redirect from 404.html for GitHub Pages SPA routing
+      if (sessionStorage.redirect) {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        // Use window.location.replace to not add to browser history
+        window.history.replaceState(null, null, redirect);
+      }
+    </script>
 </body>
 </html>

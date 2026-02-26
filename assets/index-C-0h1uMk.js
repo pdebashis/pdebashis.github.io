@@ -181,25 +181,23 @@ Please change the parent <Route path="${L}"> to <Route path="${L==="/"?"*":`${L}
     It's a work in progress—I continually refine my system to ensure it's time-efficient and eliminate trackers that don't add value or take more time.</p>
     
     <h3 class="text-xl font-bold font-sans mt-8 mb-4">Where I spent my Time?</h3>
-    <pre class="bg-gray-100 p-4 rounded my-4 font-mono text-sm">248 days in Bangalore
-104 days in Bhubaneswar
-4 days at Yercaud
-4 days at Hampi
-3 days at Patna
-2 days at Kabini
-1 day at Puri</pre>
-    <p class="mb-4">The number of days spent at Bangalore is higher than last year(156), however, it does make sense to spend more time there to justify the high rent. 
-    The number of days at Bhubaneswar still makes me happy, as this is where I dont feel like a tourist. It is something I would like to maintain in coming years. 
-    The number of days in office was just 67. The company I was working for had a hybrid work culture that allowed me some room for flexibility. 
-    The number of days exploring new cities is also not bad. Overall, I will saw i was not held down at any place for long.</p>
+    <pre class="bg-gray-100 p-4 rounded my-4 font-mono text-sm">184 days in Bangalore
+158 days in Bhubaneswar
+13 days at Thailand
+6 days at Goa
+3 days at Kolkata
+1 day at Kochi</pre>
+    <p class="mb-4">The number of days spent at Bangalore is lower than last year as I mostly worked from home. 
+    The number of days in office was 64.  
+    The number of days exploring new cities is also not bad. And I did go for a long trip in the december holidays.</p>
     
-    <h4 class="text-lg font-bold font-sans mt-6 mb-3">How many chess games did I play?</h4>
-    <pre class="bg-gray-100 p-4 rounded my-4 font-mono text-sm">1241 Blitz games
-313 bullet games
-132 rapid games
-18 chess960 games
-2 daily games</pre>
-    <p class="mb-4">For the most part of the year, I avoided playing rapid games with the fear of losing my 1700 rating. The above stats are only from chess.com games pulled using a script. <a href="/posts/chess-analytics/" class="text-blue-600 underline">Read more about this topic</a>. Apart from these, I played a few games on lichess and over the board with friends and collegues. I didnt attend any major chess events this year which I plan to work towards in the coming year.</p>
+    <h4 class="text-lg font-bold font-sans mt-6abroad mb-3">How many chess games did I play?</h4>
+    <pre class="bg-gray-100 p-4 rounded my-4 font-mono text-sm">0 bullet games
+201 blitz games
+141 rapid games
+8 daily games</pre>
+    <p class="mb-4">I have shifted from bullet to blitz this year, as it feels more meaningful and also short enough to fill in the breaks. 
+    The above stats are only from chess.com games pulled using a script. Next year, I plan to shift to Lichess, and will be updating my scripts to track there. I didnt attend any major chess events this year which I plan to fix in 2026.</p>
 `},x0=Object.freeze(Object.defineProperty({__proto__:null,POST_1:S0},Symbol.toStringTag,{value:"Module"})),w0={id:"2",title:"Book Review: The Big Nine",excerpt:"How the tech titans and their thinking machines could wrap humanity",date:"Oct 5, 2021",publish:!0,tags:["Review","AI"],url:"/blog/book-review-the-big-nine",content:`
     <p class="mb-4">How the tech titans and their thinking machines could wrap humanity</p>
     

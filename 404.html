@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+      // Get the path the user was trying to access
+      var pathSegments = window.location.pathname.split('/').filter(Boolean);
+      
+      // Store the path in session storage so index.html can access it
+      var path = '/' + pathSegments.join('/');
+      if (window.location.search) {
+        path += window.location.search;
+      }
+      
+      // Store in sessionStorage and redirect to root
+      sessionStorage.redirect = path;
+      window.location.href = '/';
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
