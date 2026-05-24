@@ -51,10 +51,18 @@
       }
       .prose img {
         width: auto;
-        max-width: 70%;
+        max-width: none;
         height: auto;
         display: block;
         margin: 1.5rem auto;
+      }
+      .prose img:first-of-type {
+        width: 100%;
+        max-width: 100%;
+      }
+      .prose img:not(:first-of-type) {
+        width: auto;
+        max-width: none;
       }
     </style>
 
