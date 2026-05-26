@@ -681,7 +681,7 @@ val output = input.foldRight(List[Int]()) { (cur, res) =>
 
     <p class="mb-4">We started by looking at this trader's Java tool to see if we can use it as the base. The tool was basic, but it was garbled-up code from here and there. It supposedly worked, but I wouldn't want to touch it. I strongly advised to build a new tool from scratch.</p>
 
-    <p class="mb-4">Thus started hours of calls between me, the developer, and my friend, the user. Trading, Candles, indicators, charts and many other trading terminologies were explained to me. It's good to pick up some domain knowledge first, before starting to build, as I had learned throughout my career. In turn, I would explain the technical aspects of API integration and design choices to the user. Our goal was first to simplify the idea of what needs to be built.</p>
+    <p class="mb-4">Thus started hours of calls between me, the developer, and my friend, the user. Candles, indicators, charts and many other trading terminologies were explained to me. It's good to pick up some domain knowledge first, before starting to build, as I had learned throughout my career. In turn, I would explain the technical aspects of API integration and design choices to the user. Our goal was first to simplify the idea of what needs to be built.</p>
 
     <div class="my-6 max-w-xl mx-auto">
       <img src="/assets/bot_dev_1.png" alt="Bot development 1" class="rounded-lg shadow-md w-full max-w-full" />
